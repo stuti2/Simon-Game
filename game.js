@@ -9,7 +9,7 @@ var started = false;
 
 var level=0;
 
-$(document).on('keydown touchstart',function(){
+$(document).on('keydown',function(){
   if(!started)
   {
     $("#level-title").text("Level " + level);
