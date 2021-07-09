@@ -9,7 +9,7 @@ var started = false;
 
 var level=0;
 
-$(document).keypress(function(){
+$(document).keydown(function(){
   if(!started)
   {
     $("#level-title").text("Level " + level);
